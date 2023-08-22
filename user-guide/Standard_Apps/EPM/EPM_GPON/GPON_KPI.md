@@ -18,18 +18,18 @@ This page lists the parameters available per topology level defined in the GPON 
 |Number ONT Offline|X|X|X|X|X|X|
 |Percentage ONT Online|X|X|X|X|X|X|
 |Percentage ONT Offline|X|X|X|X|X|X|
-|Number Bias Current OOS|X|X|X|X|X|X|
-|Percentage Bias Current OOS|X|X|X|X|X|X|
-|Number Supply Voltage OOS|X|X|X|X|X|X|
-|Percentage Supply voltage OOS|X|X|X|X|X|X|
-|Number Rx Power OOS|X|X|X|X|X|X|
-|Percentage Rx Power OOS|X|X|X|X|X|X|
-|Number Tx Power OOS|X|X|X|X|X|X|
-|Percentage Tx Power OOS|X|X|X|X|X|X|
-|Number Transceiver Temperature OOS|X|X|X|X|X|X|
-|Percentage Transceiver Temperature OOS|X|X|X|X|X|X|
+|Number ONT Bias Current OOS|X|X|X|X|X|X|
+|Percentage ONT Bias Current OOS|X|X|X|X|X|X|
+|Number ONT Supply Voltage OOS|X|X|X|X|X|X|
+|Percentage ONT Supply voltage OOS|X|X|X|X|X|X|
+|Number ONT Rx Power OOS|X|X|X|X|X|X|
+|Percentage ONT Rx Power OOS|X|X|X|X|X|X|
+|Number ONT Tx Power OOS|X|X|X|X|X|X|
+|Percentage ONT Tx Power OOS|X|X|X|X|X|X|
+|Number ONT Transceiver Temperature OOS|X|X|X|X|X|X|
+|Percentage ONT Transceiver Temperature OOS|X|X|X|X|X|X|
 |Number ONT No Data State|X|X|X|X|X|X|
-|Percentage No Data State|X|X|X|X|X|X|
+|Percentage ONT No Data State|X|X|X|X|X|X|
 
 For each KPI, a value is calculated that can be used to generate alarms and make decisions according to the network behavioral pattern.
 
@@ -49,29 +49,29 @@ For each KPI, a value is calculated that can be used to generate alarms and make
 
 - **Percentage ONT Offline**: The calculated percentage of offline ONTs.
 
-- **Number Bias Current OOS**: The ONTs with Bias Current OOS.
+- **Number ONT Bias Current OOS**: The ONTs with Bias Current OOS.
 
-- **Percentage Bias Current OOS**: The calculated percentage of ONTs with Bias current OOS.
+- **Percentage ONT Bias Current OOS**: The calculated percentage of ONTs with Bias current OOS.
 
-- **Number Supply Voltage OOS**: The ONTs with Bias Current OOS.
+- **Number ONT Supply Voltage OOS**: The ONTs with Bias Current OOS.
 
-- **Percentage Supply voltage OOS**: The calculated percentage of ONTs with Supply Voltage OOS.
+- **Percentage ONT Supply voltage OOS**: The calculated percentage of ONTs with Supply Voltage OOS.
 
-- **Number Rx Power OOS**: The ONTs with Rx Power OOS.
+- **Number ONT Rx Power OOS**: The ONTs with Rx Power OOS.
 
-- **Percentage Rx Power OOS**: The calculated percentage of ONTs with Rx Power OOS.
+- **Percentage ONT Rx Power OOS**: The calculated percentage of ONTs with Rx Power OOS.
 
-- **Number Tx Power OOS**: The ONTs with Tx Power OOS.
+- **Number ONT Tx Power OOS**: The ONTs with Tx Power OOS.
 
-- **Percentage Tx Power OOS**: The calculated percentage of ONTs with Tx Power OOS.
+- **Percentage ONT Tx Power OOS**: The calculated percentage of ONTs with Tx Power OOS.
 
-- **Number Transceiver Temperature OOS**: The ONTs with Transceiver Temperature OOS.
+- **Number ONT Transceiver Temperature OOS**: The ONTs with Transceiver Temperature OOS.
 
-- **Percentage Transceiver Temperature OOS**: The calculated percentage of ONTs with transceiver Temperature OOS.
+- **Percentage ONT Transceiver Temperature OOS**: The calculated percentage of ONTs with transceiver Temperature OOS.
 
 - **Number ONT No Data State**: The total number of ONTs from which the system has not received a data package since the last restart.
 
-- **Percentage No Data State**: The calculated percentage of ONTs for which no data has been received since the last restart.
+- **Percentage ONT No Data State**: The calculated percentage of ONTs for which no data has been received since the last restart.
 
 > [!NOTE]
 > For a detailed explanation of the OOS (Out of Spec) calculation and the different states that can be assigned to an ONT, see [EPM GPON parameter thresholds](xref:GPON_parameters_thresholds).
